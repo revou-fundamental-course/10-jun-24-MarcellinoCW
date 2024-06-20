@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu</title>
+</head>
+<body>
+    <!-- kata sambutan -->
+    <header class="kepala">
+        <div>
+            <p class="kepala1">KONVERSI SUHU</p>
+            <p class="kepala2">Temukan konversi suhu yang kamu inginkan</p>
+        </div>
+    </header>
+    <!-- kata sambutan -->
+
+    <!-- konversi suhu -->
+    <section class="konversi_suhu">
+        <div class="kotak1">
+            <div class="suhu1">
+                <nav class="tombol">
+                 <button type="button" value="1" onclick="suhu1(10)" id="Celcius1">&deg;C</button>
+                 <button type="button" value ="2" onclick="suhu1(20)" id="Kelvin1">K</button>
+                 <button type="button" value="3" onclick="suhu1(30)" id="Reamur1">&deg;R</button>
+                 <button type="button" value="4" onclick="suhu1(40)" id="Fahrenheit1">&deg;F</button>          
+                </nav>
+
+              <textarea name="" id="nilai_suhu1" class="text_area1" type = "number"></textarea>
+            </div>
+        </div>
+
+        <div class="kotak2">
+            
+            <div class="suhu2">
+                <nav class="tombol">
+                  <button type="button" value="1" onclick="suhu2(10)" id="Celcius2">&deg;C</button>
+                  <button type="button" value ="2" onclick="suhu2(20)" id="Kelvin2">K</button>
+                  <button type="button" value="3" onclick="suhu2(30)" id="Reamur2">&deg;R</button>
+                  <button type="button" value="4" onclick="suhu2(40)" id="Fahrenheit2">&deg;F</button>          
+                </nav>
+    
+             <textarea name="" id="nilai_suhu2" class="text_area2"></textarea>
+            </div>
+        </div>        
+    </section>
+
+    <section id="tombol_konversi">
+
+      <button type="button" onclick="konversi()">Konversi</button>
+
+    </section>
+
+    <section class="konversi_cara">
+        <div class="cara">
+
+            <textarea name="" id="cara" class="text_area3">Cara akan muncul di sini</textarea>
+
+        </div>
+    </section>
+
+    <!-- konversi suhu -->
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
